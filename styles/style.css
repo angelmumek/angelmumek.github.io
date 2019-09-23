@@ -1,0 +1,222 @@
+/* Start Body */
+body {
+    color: #242424;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(253, 155, 172);
+}
+/* End Body */
+
+/* Start Debug */
+.bgpalevioletred {
+    background-color: palevioletred;
+}
+.bgblue {
+    background-color: rgb(163, 163, 228);
+}
+
+.bgolivedrab {
+    background-color: rgb(247, 136, 232);
+}
+
+.bgburlywood {
+    background-color: rgb(240, 159, 134);
+}
+
+/* End Debug */
+
+/* Start Container */
+.container {
+    margin: 10px auto;
+    overflow:  auto;
+    width: 90%;
+    padding: 10px 20px;
+}
+
+.container-full {
+    margin: 10px auto;
+    overflow:  auto;
+    width: 100%;
+}
+/* End Container */
+
+/* Start Logo */
+.logo {
+    text-align: center;
+}
+/* End Logo */
+
+/* Start Anchor / Hyperlink */
+a:link,
+a:visited {
+    color: rgb(54, 54, 126);
+    text-decoration: non;
+}
+a:hover,
+a:active {
+    color: black;
+    text-decoration: non;
+}
+/* End Anchor / Hyperlink */
+
+/* Start Menu Primer*/
+.menu-primer ul {
+    background-color: rgb(106, 106, 180);
+    border-radius: 4px;
+    box-shadow:
+        0 3px 5px -1px rgb(163, 163, 228),
+        0 6px 10px 0 rgb(106, 106, 180),
+        0 1px 18px 0 rgb(106, 106, 180);
+}
+
+.menu-primer li {
+    border-right: 1px solid rgb(95, 67, 67);
+    display: inline-block;
+}
+
+.menu-primer a {
+    color: white;
+    font-size: 13px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+
+}
+
+.menu-primer a:hover {
+    background-color: aqua;
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu-primer .active {
+    background-color: white;
+    color: rgb(207, 201, 201);
+    text-decoration: none;
+}
+/* End Menu Primer*/
+
+/* Start Heading */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+/* End Heading */
+
+/* Start Jumbotron */
+.jumbotron {
+    background-color:  pink;
+    border: 1px solid palevioletred;
+    border-radius:  4px;
+    padding:  20px 0;
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbotron h3 {
+    font-size: 20px;
+    padding: 20px;
+}
+/* End Jumbotron */
+
+/* Start Main */
+.main-home-one {
+    float: left;
+    width: 49.5%;
+}
+
+.main-home-two {
+    float: right;
+    width: 49.5%;
+}
+
+.main-home-testimonial {
+    float: right;
+    width: 100%;
+}
+
+.main-home-one .box-isi,
+.main-home-two .box-isi {
+    height: 140px;
+}
+/* End Main */
+
+/* Start Box */
+.box-heading {
+    background-color: palevioletred;
+    border: 1px solid pink;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0;
+}
+
+.box-isi {
+    background-color: pink;
+    border: 1px solid rgb(255, 176, 189);
+    border-top:  0;
+    margin: 0;
+    padding: 10px 20px;
+}
+
+.testimonial {
+    background-color: pink;
+    border: 1px solid rgb(255, 176, 189);
+    border-top:  0;
+    margin: 0;
+    padding: 10px 20px;
+}
+/* End Box */
+
+/* Menu Sekunder */
+.menu-sekunder {
+    background-color: palevioletred;
+    border-bottom: 1px solid pink;
+    border-top: 1px solid pink;
+    overflow: auto;
+    padding: 10px 0;
+}
+.menu-sekunder h4 {
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.menu-sekunder ul {
+    padding: 0;
+}
+.menu-sekunder li {
+    list-style: disc;
+}
+.menu-sekunder one,
+.menu-sekunder two {
+    float: left;
+}
+
+/* End Sekunder */
