@@ -11,27 +11,36 @@
         <!--Start Description-->
         <meta name="description" contet="Puding Mam's Murah, Higenis, dan Delicious">
         <!--End Description-->
+
+        <!-- Start CSS -->
+        <link rel="stylesheet" href="styles/style.css">
+        <!-- End CSS -->
+
     </head>
 
     <body>
         <!--Start Logo-->
-        <a href="indeks.html" title="Logo Puding Mam's">
-            <img src="logo-pudingmam's.jpg.jpg" alt="Logo Puding Mam's" width="300">
-        </a>
+        <div class="container bgpalevioletred logo" >
+            <a href="indeks.html" title="Logo Puding Mam's">
+                <img src="logo-pudingmam's.jpg.jpg" alt="Logo Puding Mam's" width="300">
+            </a>
+        </div>
         <!--End Logo-->
 
         <!--Start Menu Primer-->
-        <ul>
-            <li>
-                <a href="indeks.html" title="Beranda">Beranda</a>
-            </li>
-            <li>
-                <a href="pricelist.html" title="Pricelist">Pricelist</a>
-            </li>
-            <li>
-                <a href="kontak.html" title="kontak">kontak Kami</a>
-            </li>
-        </ul>
+        <div class="container bgblue menu-primer">
+            <ul>
+                <li>
+                    <a href="indeks.html" title="Beranda">Beranda</a>
+                </li>
+                <li>
+                    <a href="pricelist.html" title="Pricelist" class="active">Pricelist</a>
+                </li>
+                <li>
+                    <a href="kontak.html" title="Kontak">Kontak Kami</a>
+                </li>
+            </ul>
+        </div>
         <!--End Menu Primer-->
         
         <!--Start Jumbotron-->
@@ -60,85 +69,116 @@
                 </a>
             </li>
 
-        <!--End Pricelist -->
+        <!-- Start Promo & Layanan -->
+        <div class="container">
+            <!-- Start Promo -->
+            <div class="main-home-one">
+                <div class="box-heading">
+                    <h4>Promo</h4>
+                </div>
+                <div class="box-isi">
+                    <ul>
+                        <li>(Setiap Hari) Free Ongkir Khusus Area Kota Palu</li>
+                        <li>(Tanggal 16 Sep - 23 Sep 2019) Gratis Permen Candy Setiap Pembelian 2 Cup untuk semua Pricelist</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End Promo -->
 
-        <!-- Start Promo -->
-        <h4>Promo</h4>
-        <ul>
-            <li>(Setiap Hari) Free Ongkir Khusus Area Kota Palu</li>
-            <li>(Tanggal 16 Sep - 23 Sep 2019) Gratis Permen Candy Setiap Pembelian 2 Cup untuk semua Pricelist</li>
-        </ul>
-        <!-- End Promo -->
+            <!-- Start Layanan -->
+            <div class="main-home-two">
+                <div class="box-heading">
+                    <h4>Layanan</h4>
+                </div>
+                <div class="box-isi">
+                    <ul>
+                        <li>Kami Melayani Pesan Antar Area Kota Palu</li>
+                        <li>Pelanggan Dapat Mengambil Puding Sendiri di Alamat Kami</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End Layanan -->
+        </div>
+            <!-- End Promo & Layanan -->
 
-        <!-- Start Layanan -->
-        <h4>Layanan</h4>
-        <ul>
-            <li>Kami Melayani Pesan Antar Area Kota Palu</li>
-            <li>Pelanggan Dapat Mengambil Puding Sendiri pada alamat yang tersedia</li>
-        </ul>
-        <!-- End Layanan -->
-
+        
+        <!--Start Testimonial -->
+        <div class="container">
         <!-- Start Testimonial -->
-        <h4>Testimonial</h4>
-        <blockquote>
-            <p> 
-                <em>-Awalnya saya Ragu untuk membeli puding secara online karena tidak sesuai ekspetasi,
-                namun setelah saya memesan di Puding Mam's dan mencobanya ternyata enak sekali. sy suka!</em>
-            </p>
-            <cite>-- Jenifer Caroline --</cite>
-            <p>
-                <em>-Pudingnya sangat enak dan rasanya ingin nambah!</em>
-            </p>
-            <cite>-- Marcel --</cite>
-            <p>
-                <em>-Porsi Pudingnya banyak dan juga enak.</em>
-            </p>
-            <cite>-- Jenifer Caroline --</cite>
-
-        </blockquote>
+            <div class="main-home-testimonial">
+                <div class="box-heading"
+                    <h4>Testimonial</h4>
+                </div>
+                <div class="testimonial">
+                    <blockquote>
+                        <p> 
+                            <em>-Awalnya saya Ragu untuk membeli puding secara online karena tidak sesuai ekspetasi,
+                            namun setelah saya memesan di Puding Mam's dan mencobanya ternyata enak sekali. sy suka!</em>
+                        </p>
+                        <cite>-- Jenifer Caroline --</cite>
+                        <p>
+                            <em>-Pudingnya sangat enak dan rasanya ingin nambah!</em>
+                        </p>
+                        <cite>-- Marcel --</cite>
+                        <p>
+                            <em>-Porsi Pudingnya banyak dan juga enak.</em>
+                        </p>
+                        <cite>-- Jenifer Caroline --</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
         <!-- End Testimonial -->
 
+        <!-- Start Menu & Media Sosial -->
+        <div class="container bgpalevioletred">
+            <!--Start Menu Sekunder-->
+            <div class="container-full menu-sekunder bgblue">
+                    <!-- Start Menu-->
+                    <div class="menu-sekunder-one">
+                        <h4>Menu</h4>
+                        <ul>
+                            <li>
+                                <a href="beranda.html" title="Beranda">Beranda</a>
+                            </li>
+                            <li>
+                                <a href="pricelist" title="pricelist">Pricelist</a>
+                            </li>
+                            <li>
+                                <a href="kontak.html" title="Kontak">Kontak Kami</a>
+                            </li>
+                        </ul>
+                    </div>
+                        <!-- End Menu -->
 
-        <!--Menu Sekunder-->
+                        <!-- Start Media Sosial -->
+                        <div class="menu-sekunder-two">  
+                        <h4>Sosial Media</h4>
+                        <ul>
+                            <li>
+                                <a href="https://whatssapp.com/" title="+62-822-917-103-99">
+                                <img src="logo-whatsapp.jpg" alt="Logo Whatsapp" width="40">
+                                +62-822-917-103-99
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://instagram.com/" title="Instagram - Design Coding">
+                                <img src="logo-instagram.jpg.jpg" alt="Logo Instagram" width="40" >
+                                @pudingmam's
+                                </a>
+                            </li>
+                        </ul>
+                        </div>
+                        <!-- Start Media Sosial -->
+                </div>
+        </div>
+        <!--End Menu Sekunder-->
 
-        <h4>Silahkan Diorder!</h4>
-        <p>Puding Mam's Menjual Puding yang Enak, Murah dan Higenis</p>
-       
-        <!--End Sekunder-->
-        <h4>Menu</h4>
-        <!--Start Menu Sekunder-->
-        <ul>
-            <li>
-                <a href="beranda.html" title="Beranda">Beranda</a>
-            </li>
-            <li>
-                <a href="pricelist" title="Pricelist">Pricelist</a>
-            </li>
-            <li>
-                <a href="kontak.html" title="Kontak">Kontak Kami</a>
-            </li>
-        </ul>
-
-        <h4>Sosial Media</h4>
-        <ul>
-            <li>
-                <a href="https://whatssapp.com/" title="+62-822-917-103-99">
-                <img src="logo-whatsapp.jpg" alt="Logo Whatsapp" width="40">
-                +62-822-917-103-99
-                </a>
-            </li>
-            <li>
-                <a href="https://instagram.com/" title="Instagram - Design Coding">
-                <img src="logo-instagram.jpg.jpg" alt="Logo Instagram" width="40" >
-                @pudingmam's
-                </a>
-            </li>
-
-            </ul>
-            <!--End Menu Sekunder-->
-
-            <!--Start Copyright-->
+        <!--Start Copyright-->
+        <div class="container">
             <p>Copyright &copy: 2019 - Puding Mam's</p>
-            <!--End Copyright--> 
+        </div>
+        <!--End Copyright-->
+            
     </body>
 </html>
